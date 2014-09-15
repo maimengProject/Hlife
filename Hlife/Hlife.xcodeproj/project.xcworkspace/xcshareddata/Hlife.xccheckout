@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>13C5AEA5-E8F0-4117-AD9B-BA18004B9721</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Hlife</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>17C6E94E-7A13-46AF-980F-9698D2AE9C12</key>
+		<string>https://github.com/maimengProject/Hlife.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Hlife/Hlife.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>17C6E94E-7A13-46AF-980F-9698D2AE9C12</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/maimengProject/Hlife.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>17C6E94E-7A13-46AF-980F-9698D2AE9C12</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>17C6E94E-7A13-46AF-980F-9698D2AE9C12</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Hlife</string>
+		</dict>
+	</array>
+</dict>
+</plist>
