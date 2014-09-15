@@ -7,6 +7,11 @@
 //
 
 #import "AppDelegate.h"
+#import "AKTabBarController.h"
+#import "HomeViewController.h"
+#import "NearViewController.h"
+#import "PersonalViewController.h"
+#import "MoreViewController.h"
 
 @implementation AppDelegate
 
@@ -18,6 +23,25 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+	_tabbar = [[AKTabBarController alloc] initWithTabBarHeight:(UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) ? 70 : 50];
+	HomeViewController *home = [[HomeViewController alloc]init];
+	UINavigationController *homeNav = [[UINavigationController alloc]initWithRootViewController:home];
+	
+	NearViewController *near = [[NearViewController alloc]init];
+	UINavigationController *nearNav = [[UINavigationController alloc]initWithRootViewController:near];
+	
+	PersonalViewController *person = [[PersonalViewController alloc]init];
+	UINavigationController *personNav = [[UINavigationController alloc]initWithRootViewController:person];
+	
+	MoreViewController *more = [[MoreViewController alloc]init];
+	UINavigationController *moreNav = [[UINavigationController alloc]initWithRootViewController:more];
+	
+	[_tabbar setViewControllers:[NSMutableArray arrayWithObjects:homeNav,
+								  nearNav,
+								  personNav,
+								  moreNav,
+								  nil]];
+	self.window.rootViewController = _tabbar;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

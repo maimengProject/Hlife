@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+@class AKTabBarController;
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
@@ -18,5 +19,9 @@
 
 - (void)saveContext;
 - (NSURL *)applicationDocumentsDirectory;
+
+
+
+@property (nonatomic, strong)AKTabBarController *tabbar;
 
 @end

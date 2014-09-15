@@ -22,6 +22,35 @@
 		0D51477719C6D4AE00FEEBAD /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D51475B19C6D4AE00FEEBAD /* CoreData.framework */; };
 		0D51477F19C6D4AE00FEEBAD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0D51477D19C6D4AE00FEEBAD /* InfoPlist.strings */; };
 		0D51478119C6D4AE00FEEBAD /* HlifeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D51478019C6D4AE00FEEBAD /* HlifeTests.m */; };
+		0D51479719C6DE5400FEEBAD /* AKTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D51478B19C6DE5400FEEBAD /* AKTabBarController.m */; };
+		0D51479819C6DE5400FEEBAD /* AKTab.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D51478D19C6DE5400FEEBAD /* AKTab.m */; };
+		0D51479919C6DE5400FEEBAD /* AKTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D51478F19C6DE5400FEEBAD /* AKTabBar.m */; };
+		0D51479A19C6DE5400FEEBAD /* AKTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D51479119C6DE5400FEEBAD /* AKTabBarView.m */; };
+		0D51479B19C6DE5400FEEBAD /* UINavigationController+AKTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D51479319C6DE5400FEEBAD /* UINavigationController+AKTabBarController.m */; };
+		0D51479C19C6DE5400FEEBAD /* UIViewController+AKTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D51479519C6DE5400FEEBAD /* UIViewController+AKTabBarController.m */; };
+		0D51479D19C6DE5400FEEBAD /* AKTabBarController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0D51479619C6DE5400FEEBAD /* AKTabBarController.bundle */; };
+		0D5147A019C6E5E500FEEBAD /* JSCustomBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D51479F19C6E5E500FEEBAD /* JSCustomBadge.m */; };
+		0D5147A619C6E71600FEEBAD /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5147A519C6E71600FEEBAD /* HomeViewController.m */; };
+		0D5147A919C6E73900FEEBAD /* NearViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5147A819C6E73900FEEBAD /* NearViewController.m */; };
+		0D5147AC19C6E77C00FEEBAD /* PersonalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5147AB19C6E77C00FEEBAD /* PersonalViewController.m */; };
+		0D5147AF19C6E79500FEEBAD /* MoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5147AE19C6E79500FEEBAD /* MoreViewController.m */; };
+		0D5147B219C6EDD700FEEBAD /* ContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5147B119C6EDD700FEEBAD /* ContentViewController.m */; };
+		0D5147C419C6EF9100FEEBAD /* noise-dark-blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D5147B419C6EF9100FEEBAD /* noise-dark-blue.png */; };
+		0D5147C519C6EF9100FEEBAD /* noise-dark-blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D5147B519C6EF9100FEEBAD /* noise-dark-blue@2x.png */; };
+		0D5147C619C6EF9100FEEBAD /* noise-dark-gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D5147B619C6EF9100FEEBAD /* noise-dark-gray.png */; };
+		0D5147C719C6EF9100FEEBAD /* noise-dark-gray@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D5147B719C6EF9100FEEBAD /* noise-dark-gray@2x.png */; };
+		0D5147C819C6EF9100FEEBAD /* noise-dark-green.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D5147B819C6EF9100FEEBAD /* noise-dark-green.png */; };
+		0D5147C919C6EF9100FEEBAD /* noise-dark-green@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D5147B919C6EF9100FEEBAD /* noise-dark-green@2x.png */; };
+		0D5147CA19C6EF9100FEEBAD /* image-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D5147BA19C6EF9100FEEBAD /* image-1.png */; };
+		0D5147CB19C6EF9100FEEBAD /* image-1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D5147BB19C6EF9100FEEBAD /* image-1@2x.png */; };
+		0D5147CC19C6EF9100FEEBAD /* image-1-active.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D5147BC19C6EF9100FEEBAD /* image-1-active.png */; };
+		0D5147CD19C6EF9100FEEBAD /* image-1-active@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D5147BD19C6EF9100FEEBAD /* image-1-active@2x.png */; };
+		0D5147CE19C6EF9100FEEBAD /* image-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D5147BE19C6EF9100FEEBAD /* image-2.png */; };
+		0D5147CF19C6EF9100FEEBAD /* image-2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D5147BF19C6EF9100FEEBAD /* image-2@2x.png */; };
+		0D5147D019C6EF9100FEEBAD /* image-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D5147C019C6EF9100FEEBAD /* image-3.png */; };
+		0D5147D119C6EF9100FEEBAD /* image-3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D5147C119C6EF9100FEEBAD /* image-3@2x.png */; };
+		0D5147D219C6EF9100FEEBAD /* image-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D5147C219C6EF9100FEEBAD /* image-4.png */; };
+		0D5147D319C6EF9100FEEBAD /* image-4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D5147C319C6EF9100FEEBAD /* image-4@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +74,7 @@
 		0D51476319C6D4AE00FEEBAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0D51476519C6D4AE00FEEBAD /* Hlife-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hlife-Prefix.pch"; sourceTree = "<group>"; };
 		0D51476619C6D4AE00FEEBAD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		0D51476719C6D4AE00FEEBAD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0D51476719C6D4AE00FEEBAD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; usesTabs = 1; };
 		0D51476A19C6D4AE00FEEBAD /* Hlife.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Hlife.xcdatamodel; sourceTree = "<group>"; };
 		0D51476C19C6D4AE00FEEBAD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0D51477219C6D4AE00FEEBAD /* HlifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HlifeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +82,47 @@
 		0D51477C19C6D4AE00FEEBAD /* HlifeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HlifeTests-Info.plist"; sourceTree = "<group>"; };
 		0D51477E19C6D4AE00FEEBAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0D51478019C6D4AE00FEEBAD /* HlifeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HlifeTests.m; sourceTree = "<group>"; };
+		0D51478A19C6DE5400FEEBAD /* AKTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKTabBarController.h; sourceTree = "<group>"; };
+		0D51478B19C6DE5400FEEBAD /* AKTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKTabBarController.m; sourceTree = "<group>"; };
+		0D51478C19C6DE5400FEEBAD /* AKTab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKTab.h; sourceTree = "<group>"; };
+		0D51478D19C6DE5400FEEBAD /* AKTab.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKTab.m; sourceTree = "<group>"; };
+		0D51478E19C6DE5400FEEBAD /* AKTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKTabBar.h; sourceTree = "<group>"; };
+		0D51478F19C6DE5400FEEBAD /* AKTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKTabBar.m; sourceTree = "<group>"; };
+		0D51479019C6DE5400FEEBAD /* AKTabBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKTabBarView.h; sourceTree = "<group>"; };
+		0D51479119C6DE5400FEEBAD /* AKTabBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AKTabBarView.m; sourceTree = "<group>"; };
+		0D51479219C6DE5400FEEBAD /* UINavigationController+AKTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+AKTabBarController.h"; sourceTree = "<group>"; };
+		0D51479319C6DE5400FEEBAD /* UINavigationController+AKTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+AKTabBarController.m"; sourceTree = "<group>"; };
+		0D51479419C6DE5400FEEBAD /* UIViewController+AKTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AKTabBarController.h"; sourceTree = "<group>"; };
+		0D51479519C6DE5400FEEBAD /* UIViewController+AKTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AKTabBarController.m"; sourceTree = "<group>"; };
+		0D51479619C6DE5400FEEBAD /* AKTabBarController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AKTabBarController.bundle; sourceTree = "<group>"; };
+		0D51479E19C6E5E500FEEBAD /* JSCustomBadge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCustomBadge.h; sourceTree = "<group>"; };
+		0D51479F19C6E5E500FEEBAD /* JSCustomBadge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCustomBadge.m; sourceTree = "<group>"; };
+		0D5147A419C6E71600FEEBAD /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		0D5147A519C6E71600FEEBAD /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		0D5147A719C6E73900FEEBAD /* NearViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NearViewController.h; sourceTree = "<group>"; };
+		0D5147A819C6E73900FEEBAD /* NearViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NearViewController.m; sourceTree = "<group>"; };
+		0D5147AA19C6E77C00FEEBAD /* PersonalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonalViewController.h; sourceTree = "<group>"; };
+		0D5147AB19C6E77C00FEEBAD /* PersonalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonalViewController.m; sourceTree = "<group>"; };
+		0D5147AD19C6E79500FEEBAD /* MoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreViewController.h; sourceTree = "<group>"; };
+		0D5147AE19C6E79500FEEBAD /* MoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreViewController.m; sourceTree = "<group>"; };
+		0D5147B019C6EDD700FEEBAD /* ContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentViewController.h; sourceTree = "<group>"; };
+		0D5147B119C6EDD700FEEBAD /* ContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentViewController.m; sourceTree = "<group>"; };
+		0D5147B419C6EF9100FEEBAD /* noise-dark-blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "noise-dark-blue.png"; sourceTree = "<group>"; };
+		0D5147B519C6EF9100FEEBAD /* noise-dark-blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "noise-dark-blue@2x.png"; sourceTree = "<group>"; };
+		0D5147B619C6EF9100FEEBAD /* noise-dark-gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "noise-dark-gray.png"; sourceTree = "<group>"; };
+		0D5147B719C6EF9100FEEBAD /* noise-dark-gray@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "noise-dark-gray@2x.png"; sourceTree = "<group>"; };
+		0D5147B819C6EF9100FEEBAD /* noise-dark-green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "noise-dark-green.png"; sourceTree = "<group>"; };
+		0D5147B919C6EF9100FEEBAD /* noise-dark-green@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "noise-dark-green@2x.png"; sourceTree = "<group>"; };
+		0D5147BA19C6EF9100FEEBAD /* image-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image-1.png"; sourceTree = "<group>"; };
+		0D5147BB19C6EF9100FEEBAD /* image-1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image-1@2x.png"; sourceTree = "<group>"; };
+		0D5147BC19C6EF9100FEEBAD /* image-1-active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image-1-active.png"; sourceTree = "<group>"; };
+		0D5147BD19C6EF9100FEEBAD /* image-1-active@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image-1-active@2x.png"; sourceTree = "<group>"; };
+		0D5147BE19C6EF9100FEEBAD /* image-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image-2.png"; sourceTree = "<group>"; };
+		0D5147BF19C6EF9100FEEBAD /* image-2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image-2@2x.png"; sourceTree = "<group>"; };
+		0D5147C019C6EF9100FEEBAD /* image-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image-3.png"; sourceTree = "<group>"; };
+		0D5147C119C6EF9100FEEBAD /* image-3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image-3@2x.png"; sourceTree = "<group>"; };
+		0D5147C219C6EF9100FEEBAD /* image-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image-4.png"; sourceTree = "<group>"; };
+		0D5147C319C6EF9100FEEBAD /* image-4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image-4@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +187,18 @@
 			children = (
 				0D51476619C6D4AE00FEEBAD /* AppDelegate.h */,
 				0D51476719C6D4AE00FEEBAD /* AppDelegate.m */,
+				0D5147A419C6E71600FEEBAD /* HomeViewController.h */,
+				0D5147A519C6E71600FEEBAD /* HomeViewController.m */,
+				0D5147A719C6E73900FEEBAD /* NearViewController.h */,
+				0D5147A819C6E73900FEEBAD /* NearViewController.m */,
+				0D5147AA19C6E77C00FEEBAD /* PersonalViewController.h */,
+				0D5147AB19C6E77C00FEEBAD /* PersonalViewController.m */,
+				0D5147AD19C6E79500FEEBAD /* MoreViewController.h */,
+				0D5147AE19C6E79500FEEBAD /* MoreViewController.m */,
+				0D5147B019C6EDD700FEEBAD /* ContentViewController.h */,
+				0D5147B119C6EDD700FEEBAD /* ContentViewController.m */,
+				0D5147B319C6EF7C00FEEBAD /* Source */,
+				0D5147A119C6E63000FEEBAD /* Vendor */,
 				0D51476C19C6D4AE00FEEBAD /* Images.xcassets */,
 				0D51476919C6D4AE00FEEBAD /* Hlife.xcdatamodeld */,
 				0D51475E19C6D4AE00FEEBAD /* Supporting Files */,
@@ -151,6 +233,75 @@
 				0D51477D19C6D4AE00FEEBAD /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0D5147A119C6E63000FEEBAD /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				0D5147A319C6E67C00FEEBAD /* JSCustomBadge */,
+				0D5147A219C6E64400FEEBAD /* AKTabBar */,
+			);
+			name = Vendor;
+			sourceTree = "<group>";
+		};
+		0D5147A219C6E64400FEEBAD /* AKTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				0D51478A19C6DE5400FEEBAD /* AKTabBarController.h */,
+				0D51478B19C6DE5400FEEBAD /* AKTabBarController.m */,
+				0D51478C19C6DE5400FEEBAD /* AKTab.h */,
+				0D51478D19C6DE5400FEEBAD /* AKTab.m */,
+				0D51478E19C6DE5400FEEBAD /* AKTabBar.h */,
+				0D51478F19C6DE5400FEEBAD /* AKTabBar.m */,
+				0D51479019C6DE5400FEEBAD /* AKTabBarView.h */,
+				0D51479119C6DE5400FEEBAD /* AKTabBarView.m */,
+				0D51479219C6DE5400FEEBAD /* UINavigationController+AKTabBarController.h */,
+				0D51479319C6DE5400FEEBAD /* UINavigationController+AKTabBarController.m */,
+				0D51479419C6DE5400FEEBAD /* UIViewController+AKTabBarController.h */,
+				0D51479519C6DE5400FEEBAD /* UIViewController+AKTabBarController.m */,
+				0D51479619C6DE5400FEEBAD /* AKTabBarController.bundle */,
+			);
+			name = AKTabBar;
+			sourceTree = "<group>";
+		};
+		0D5147A319C6E67C00FEEBAD /* JSCustomBadge */ = {
+			isa = PBXGroup;
+			children = (
+				0D51479E19C6E5E500FEEBAD /* JSCustomBadge.h */,
+				0D51479F19C6E5E500FEEBAD /* JSCustomBadge.m */,
+			);
+			name = JSCustomBadge;
+			sourceTree = "<group>";
+		};
+		0D5147B319C6EF7C00FEEBAD /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				0D5147D419C6EF9500FEEBAD /* Images */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		0D5147D419C6EF9500FEEBAD /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0D5147B419C6EF9100FEEBAD /* noise-dark-blue.png */,
+				0D5147B519C6EF9100FEEBAD /* noise-dark-blue@2x.png */,
+				0D5147B619C6EF9100FEEBAD /* noise-dark-gray.png */,
+				0D5147B719C6EF9100FEEBAD /* noise-dark-gray@2x.png */,
+				0D5147B819C6EF9100FEEBAD /* noise-dark-green.png */,
+				0D5147B919C6EF9100FEEBAD /* noise-dark-green@2x.png */,
+				0D5147BA19C6EF9100FEEBAD /* image-1.png */,
+				0D5147BB19C6EF9100FEEBAD /* image-1@2x.png */,
+				0D5147BC19C6EF9100FEEBAD /* image-1-active.png */,
+				0D5147BD19C6EF9100FEEBAD /* image-1-active@2x.png */,
+				0D5147BE19C6EF9100FEEBAD /* image-2.png */,
+				0D5147BF19C6EF9100FEEBAD /* image-2@2x.png */,
+				0D5147C019C6EF9100FEEBAD /* image-3.png */,
+				0D5147C119C6EF9100FEEBAD /* image-3@2x.png */,
+				0D5147C219C6EF9100FEEBAD /* image-4.png */,
+				0D5147C319C6EF9100FEEBAD /* image-4@2x.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,8 +379,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D5147CF19C6EF9100FEEBAD /* image-2@2x.png in Resources */,
+				0D5147D119C6EF9100FEEBAD /* image-3@2x.png in Resources */,
+				0D5147D019C6EF9100FEEBAD /* image-3.png in Resources */,
+				0D5147C419C6EF9100FEEBAD /* noise-dark-blue.png in Resources */,
+				0D5147C919C6EF9100FEEBAD /* noise-dark-green@2x.png in Resources */,
+				0D5147C619C6EF9100FEEBAD /* noise-dark-gray.png in Resources */,
+				0D5147C819C6EF9100FEEBAD /* noise-dark-green.png in Resources */,
 				0D51476219C6D4AE00FEEBAD /* InfoPlist.strings in Resources */,
+				0D5147D219C6EF9100FEEBAD /* image-4.png in Resources */,
+				0D5147CA19C6EF9100FEEBAD /* image-1.png in Resources */,
+				0D5147CB19C6EF9100FEEBAD /* image-1@2x.png in Resources */,
+				0D5147CC19C6EF9100FEEBAD /* image-1-active.png in Resources */,
+				0D5147CE19C6EF9100FEEBAD /* image-2.png in Resources */,
 				0D51476D19C6D4AE00FEEBAD /* Images.xcassets in Resources */,
+				0D5147CD19C6EF9100FEEBAD /* image-1-active@2x.png in Resources */,
+				0D51479D19C6DE5400FEEBAD /* AKTabBarController.bundle in Resources */,
+				0D5147D319C6EF9100FEEBAD /* image-4@2x.png in Resources */,
+				0D5147C519C6EF9100FEEBAD /* noise-dark-blue@2x.png in Resources */,
+				0D5147C719C6EF9100FEEBAD /* noise-dark-gray@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,8 +417,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D51476B19C6D4AE00FEEBAD /* Hlife.xcdatamodeld in Sources */,
+				0D51479919C6DE5400FEEBAD /* AKTabBar.m in Sources */,
 				0D51476819C6D4AE00FEEBAD /* AppDelegate.m in Sources */,
+				0D51479C19C6DE5400FEEBAD /* UIViewController+AKTabBarController.m in Sources */,
+				0D5147A919C6E73900FEEBAD /* NearViewController.m in Sources */,
+				0D5147AF19C6E79500FEEBAD /* MoreViewController.m in Sources */,
+				0D51479A19C6DE5400FEEBAD /* AKTabBarView.m in Sources */,
+				0D51479819C6DE5400FEEBAD /* AKTab.m in Sources */,
+				0D5147A619C6E71600FEEBAD /* HomeViewController.m in Sources */,
 				0D51476419C6D4AE00FEEBAD /* main.m in Sources */,
+				0D5147A019C6E5E500FEEBAD /* JSCustomBadge.m in Sources */,
+				0D5147B219C6EDD700FEEBAD /* ContentViewController.m in Sources */,
+				0D51479719C6DE5400FEEBAD /* AKTabBarController.m in Sources */,
+				0D51479B19C6DE5400FEEBAD /* UINavigationController+AKTabBarController.m in Sources */,
+				0D5147AC19C6E77C00FEEBAD /* PersonalViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,6 +627,7 @@
 				0D51478619C6D4AE00FEEBAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0D51478719C6D4AE00FEEBAD /* Build configuration list for PBXNativeTarget "HlifeTests" */ = {
 			isa = XCConfigurationList;
@@ -455,6 +636,7 @@
 				0D51478919C6D4AE00FEEBAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
